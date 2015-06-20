@@ -43,37 +43,37 @@ public class MainActivity extends ActionBarActivity {
         Toast message;
         String messageMainPart = "This button will launch ";
         switch (view.getId()){
-            case R.id.app1:
+            case R.id.spotifyAppButton:
                 Button app1 = (Button) findViewById(view.getId());
                 message = Toast.makeText(getApplicationContext(),messageMainPart+app1.getText() , Toast.LENGTH_LONG);
                 message.show();
                 break;
 
-            case R.id.app2:
+            case R.id.scoresAppButton:
                 Button app2 = (Button) findViewById(view.getId());
                 message = Toast.makeText(getApplicationContext(),messageMainPart+app2.getText() , Toast.LENGTH_LONG);
                 message.show();
                 break;
 
-            case R.id.app3:
+            case R.id.libraryAppButton:
                 Button app3 = (Button) findViewById(view.getId());
                 message = Toast.makeText(getApplicationContext(),messageMainPart+app3.getText() , Toast.LENGTH_LONG);
                 message.show();
                 break;
 
-            case R.id.app4:
+            case R.id.buildItBiggerAppButton:
                 Button app4 = (Button) findViewById(view.getId());
                 message = Toast.makeText(getApplicationContext(),messageMainPart+app4.getText() , Toast.LENGTH_LONG);
                 message.show();
                 break;
 
-            case R.id.app5:
+            case R.id.readerAppButton:
                 Button app5 = (Button) findViewById(view.getId());
                 message = Toast.makeText(getApplicationContext(),messageMainPart+app5.getText() , Toast.LENGTH_LONG);
                 message.show();
                 break;
 
-            case R.id.app6:
+            case R.id.myOwnAppButton:
                 Button app6 = (Button) findViewById(view.getId());
                 message = Toast.makeText(getApplicationContext(),messageMainPart+app6.getText() , Toast.LENGTH_LONG);
                 message.show();
